@@ -6,12 +6,17 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: 3.2.3 # Dart SDK version
-  flutter: 3.16.3 # Flutter SDK version
+  sdk: 3.3.0 # Dart SDK version
+  flutter: 3.16.6 # Flutter SDK version
 
 dependencies:
   flutter:
     sdk: flutter
+  provider: ^6.1.1
+  image_picker: ^1.0.7
+  share_plus: ^7.2.2
+  path_provider: ^2.1.2
+  path: ^1.8.3
 
   cupertino_icons: ^1.0.2
 
